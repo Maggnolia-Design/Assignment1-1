@@ -1,24 +1,24 @@
 function table(w,h){
-  var x=mouseX
-  var y=mouseY
+  var x=50
+  var y=50
   
-  for(var i=0; i<w; i=i+2){
-    for (var j=0; j<h; j=j+2){
-      fill(100,100,250)
-      stroke(100,100,250)
+  for(var i=0; i<w; i=i+3){
+    for (var j=0; j<h; j=j+3){
+      fill(mouseX,mouseY,mouseX+mouseY)
+      noStroke()
       ellipse(x,y,i,j)
-      x=x+32
+      x=x+40
     }
-    y=y+32
-    x=mouseX
+    y=y+40
+    x=+50
   }
 }
   
 function setup() {
-  createCanvas (1400,1400)
+  createCanvas (500,500)
 }
 
 function draw() {
-  background(250,250,250)
-  table(16,16)
+  background(240,240,240)
+  table(25,25)
 }
