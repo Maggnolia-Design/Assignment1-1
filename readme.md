@@ -1,3 +1,5 @@
+p5.js art featuring skewed circles and colors reesponding to mouse position (NEU Programming basics 2014).
+
 # Assignment 1
 - What we went over in class
   - Variables
